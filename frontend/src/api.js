@@ -1,5 +1,5 @@
 const API_URL =
-  import.meta.env.VITE_API_URL || "http://internal-Internal-LB-37829577.ap-south-1.elb.amazonaws.com";
+  import.meta.env.VITE_API_URL || "internal-Internal-App-LB-1126933481.ap-south-1.elb.amazonaws.com:80";
 
 export async function getEmployees() {
 
